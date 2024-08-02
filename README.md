@@ -1,0 +1,1 @@
+I have created a GUI-Based Weather Application using Python language . Python script creates a graphical user interface (GUI) application using Tkinter to display weather information for a given city. It also include the wind , pressure , pressure , humidity and time of that given city or state.
