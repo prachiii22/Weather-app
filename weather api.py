@@ -46,8 +46,8 @@ def getWeather():
     except Exception as e :
         messagebox.showerror ("Weather App" , "INVALID ENTRYYY !!!" )
     
-
-Search_image = PhotoImage( file="C:/Users/Admin/Downloads/search.png" )
+#search_bar
+Search_image = PhotoImage( file="https://drive.google.com/file/d/1FNYalTqxDiX-NcS5jLzeVf_hQ31Nlqr6/view?usp=drive_link" )
 myimage = Label(image = Search_image)
 myimage.place(x = 20 , y = 20)
 
@@ -55,20 +55,18 @@ textfield = tk.Entry ( root, justify ="center", width =17, font =("poppins", 25,
 textfield.place(x = 50 , y = 40)
 textfield.focus()
 
-
-Search_icon = PhotoImage( file="C:/Users/Admin/Downloads/search_icon.png" )
+#search_icon
+Search_icon = PhotoImage( file="https://drive.google.com/file/d/1y3aHPCNa0vrYlEc21O3CFuYdEfD414Pa/view?usp=drive_link" )
 myimage_icon = Button(image = Search_icon , borderwidth = 0 , cursor = "hand2", bg = "#404040" , command = getWeather)
 myimage_icon.place(x = 400 , y = 34)
 
 #logo
-
-Logo_image = PhotoImage( file="C:/Users/Admin/Downloads/w_logo.png" )
+Logo_image = PhotoImage( file="https://drive.google.com/file/d/1xKb5LLwc-puE64QZmL09sD6yDKehjpcD/view?usp=drive_link" )
 logo = Label(image = Logo_image)
 logo.place(x = 150 , y = 100)
 
 #Bottom box
-
-Frame_image = PhotoImage( file="C:/Users/Admin/Downloads/box.png")
+Frame_image = PhotoImage( file="https://drive.google.com/file/d/1skRNV5I2G9rCOfbjD4R-mPCJxYmxawKk/view?usp=drive_link")
 frame_myimage = Label(image = Frame_image)
 frame_myimage.pack(padx = 5 , pady = 5 , side = BOTTOM)
 
@@ -79,7 +77,6 @@ clock = Label(root , font = ("Times" , 20 ))
 clock.place(x = 30 , y = 130) 
 
 #label
-
 label1 = Label(root , text ="WIND", font =("Times", 15, "bold italic"), fg ="white", bg ="#1ab5ef")
 label1.place( x = 120 , y = 400)
 
